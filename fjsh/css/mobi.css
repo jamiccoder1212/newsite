@@ -1,0 +1,17 @@
+@media screen and (max-width: 970px){
+    .no-phone{
+        display: none;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+    #section{
+        order:2;
+        width: 100%;
+
+    }
+    #sidebar{
+        order: 2;
+    }
+    }

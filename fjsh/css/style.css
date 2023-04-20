@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 200px;
+    background: url(../img/koala\ \(1\).jpg);
+    background-size: cover;
+    background-position: 65%;
+    background-blend-mode: multiply;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.head{
+    width: 340px;
+    height: 180px;
+    background-color: gold;
+    border-radius: 10px;
+}
+#main{
+    width: 100%;
+    display: flex;
+}
+#section{
+    width: 65%;
+    height: 500px;
+    background-color: green;
+
+
+}
+#sidebar{
+    width: 35%;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.aside-widget{
+    width: 90%;
+    height: 100px;
+    background: red;
+    border-radius: 10px;
+}
+#pre-footer{
+    width: 100%;
+    height: 200px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-widget{
+    width: 24%;
+    height: 190px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 5px ;
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
